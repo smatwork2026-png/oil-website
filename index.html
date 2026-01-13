@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zaitoon Pure Olive Oil - Premium organic extra virgin olive oil. Experience the pure taste of nature with our cold-pressed, chemical-free olive oil.">
+    <meta name="keywords" content="olive oil, extra virgin, organic, cold pressed, zaitoon, pure olive oil, healthy cooking oil">
+    <meta name="author" content="Zaitoon Pure Olive Oil">
+    
+    <title>Zaitoon Pure Olive Oil - Pure Taste of Nature</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🫒</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Overlay for mobile menu -->
+    <div class="overlay"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <span class="logo-text">Zaitoon<span>.</span></span>
+            </a>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
+                <li><a href="benefits.html" class="nav-link">Benefits</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="products.html" class="btn btn-primary">Shop Now</a></li>
+            </ul>
+            
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <!-- Floating olive decorations -->
+        <div class="olive-float olive-float-1">🫒</div>
+        <div class="olive-float olive-float-2">🌿</div>
+        <div class="olive-float olive-float-3">🫒</div>
+        
+        <div class="hero-bg">
+            <img src="images/hero-olive-grove.png" alt="Beautiful olive grove at sunset">
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge">
+                    <i class="fas fa-certificate"></i>
+                    100% Pure & Organic
+                </span>
+                
+                <h1>Pure Taste of <span>Nature</span></h1>
+                
+                <p class="hero-description">
+                    Experience the authentic taste of premium olive oil, cold-pressed from organically grown olives. 
+                    Our olive oil brings the Mediterranean tradition to your kitchen with every drop.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="products.html" class="btn btn-primary">
+                        <i class="fas fa-shopping-bag"></i>
+                        Shop Now
+                    </a>
+                    <a href="#" class="btn btn-whatsapp" onclick="contactOnWhatsApp(); return false;">
+                        <i class="fab fa-whatsapp"></i>
+                        Order on WhatsApp
+                    </a>
+                </div>
+                
+                <div class="hero-features">
+                    <div class="hero-feature">
+                        <i class="fas fa-seedling"></i>
+                        <span>Organic</span>
+                    </div>
+                    <div class="hero-feature">
+                        <i class="fas fa-snowflake"></i>
+                        <span>Cold Pressed</span>
+                    </div>
+                    <div class="hero-feature">
+                        <i class="fas fa-heart"></i>
+                        <span>Healthy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Preview Section -->
+    <section class="section" id="about-preview">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image animate-on-scroll">
+                    <img src="images/organic-farm.png" alt="Organic olive farming">
+                    <div class="about-badge">
+                        <div class="about-badge-number">25+</div>
+                        <div class="about-badge-text">Years of Excellence</div>
+                    </div>
+                </div>
+                
+                <div class="about-content animate-on-scroll">
+                    <span class="section-badge">
+                        <i class="fas fa-info-circle"></i>
+                        About Us
+                    </span>
+                    
+                    <h2>Bringing the Finest Olive Oil to Your Table</h2>
+                    
+                    <p>
+                        At Zaitoon Pure Olive Oil, we are dedicated to producing the highest quality olive oil 
+                        through traditional methods and sustainable farming practices. Our olives are handpicked 
+                        at the perfect ripeness and cold-pressed within hours to preserve their natural flavor and nutrients.
+                    </p>
+                    
+                    <p>
+                        Every bottle of our olive oil represents generations of expertise, passion for quality, 
+                        and commitment to your health. We believe in transparency and purity – no additives, 
+                        no chemicals, just pure olive oil.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>100% Natural</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Chemical Free</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>First Cold Press</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Rich in Antioxidants</span>
+                        </div>
+                    </div>
+                    
+                    <a href="about.html" class="btn btn-secondary" style="margin-top: 1.5rem;">
+                        Learn More
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Featured Products Section -->
+    <section class="section" id="featured-products" style="background: var(--white);">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-badge">
+                    <i class="fas fa-star"></i>
+                    Our Products
+                </span>
+                <h2 class="section-title">Premium Olive Oil Collection</h2>
+                <p class="section-subtitle">
+                    Discover our range of carefully crafted olive oils, each with its unique flavor profile and health benefits.
+                </p>
+            </div>
+            
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card animate-on-scroll">
+                    <span class="product-badge">Best Seller</span>
+                    <div class="product-image">
+                        <img src="images/olive-oil-bottle.png" alt="Extra Virgin Olive Oil">
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Premium</span>
+                        <h3 class="product-name">Extra Virgin Olive Oil</h3>
+                        <p class="product-description">
+                            Our finest quality olive oil with rich flavor and superior health benefits.
+                        </p>
+                        <div class="product-sizes">
+                            <span class="size-option active" data-price="1200">250ml</span>
+                            <span class="size-option" data-price="2200">500ml</span>
+                            <span class="size-option" data-price="4000">1 Liter</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price">Rs. 1,200 <span>PKR</span></div>
+                            <div class="product-buttons">
+                                <button class="product-btn product-btn-cart" title="Add to Cart">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                                <button class="product-btn product-btn-whatsapp" title="Order on WhatsApp" onclick="orderOnWhatsApp('Extra Virgin Olive Oil', '250ml', '1200')">
+                                    <i class="fab fa-whatsapp"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card animate-on-scroll">
+                    <span class="product-badge">Popular</span>
+                    <div class="product-image">
+                        <img src="images/olive-oil-bottle.png" alt="Cold Pressed Olive Oil">
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Classic</span>
+                        <h3 class="product-name">Cold Pressed Olive Oil</h3>
+                        <p class="product-description">
+                            Traditional cold-pressed olive oil perfect for everyday cooking and dressings.
+                        </p>
+                        <div class="product-sizes">
+                            <span class="size-option active" data-price="900">250ml</span>
+                            <span class="size-option" data-price="1700">500ml</span>
+                            <span class="size-option" data-price="3200">1 Liter</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price">Rs. 900 <span>PKR</span></div>
+                            <div class="product-buttons">
+                                <button class="product-btn product-btn-cart" title="Add to Cart">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                                <button class="product-btn product-btn-whatsapp" title="Order on WhatsApp" onclick="orderOnWhatsApp('Cold Pressed Olive Oil', '250ml', '900')">
+                                    <i class="fab fa-whatsapp"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card animate-on-scroll">
+                    <span class="product-badge">New</span>
+                    <div class="product-image">
+                        <img src="images/olive-oil-bottle.png" alt="Organic Olive Oil">
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Organic</span>
+                        <h3 class="product-name">Organic Olive Oil</h3>
+                        <p class="product-description">
+                            Certified organic olive oil from sustainably grown olive trees.
+                        </p>
+                        <div class="product-sizes">
+                            <span class="size-option active" data-price="1400">250ml</span>
+                            <span class="size-option" data-price="2600">500ml</span>
+                            <span class="size-option" data-price="4800">1 Liter</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price">Rs. 1,400 <span>PKR</span></div>
+                            <div class="product-buttons">
+                                <button class="product-btn product-btn-cart" title="Add to Cart">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                                <button class="product-btn product-btn-whatsapp" title="Order on WhatsApp" onclick="orderOnWhatsApp('Organic Olive Oil', '250ml', '1400')">
+                                    <i class="fab fa-whatsapp"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center" style="margin-top: 2rem;">
+                <a href="products.html" class="btn btn-outline">
+                    View All Products
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Benefits Preview Section -->
+    <section class="section" id="benefits-preview">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-badge">
+                    <i class="fas fa-heartbeat"></i>
+                    Health Benefits
+                </span>
+                <h2 class="section-title">Why Choose Olive Oil?</h2>
+                <p class="section-subtitle">
+                    Olive oil is nature's gift for your health. Discover the amazing benefits of incorporating olive oil into your daily life.
+                </p>
+            </div>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card animate-on-scroll">
+                    <div class="benefit-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="benefit-title">Heart Health</h3>
+                    <p class="benefit-description">
+                        Rich in monounsaturated fats that help reduce bad cholesterol and support cardiovascular health.
+                    </p>
+                </div>
+                
+                <div class="benefit-card animate-on-scroll">
+                    <div class="benefit-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3 class="benefit-title">Skin Care</h3>
+                    <p class="benefit-description">
+                        Natural antioxidants and vitamins nourish and moisturize your skin for a healthy glow.
+                    </p>
+                </div>
+                
+                <div class="benefit-card animate-on-scroll">
+                    <div class="benefit-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3 class="benefit-title">Cooking Excellence</h3>
+                    <p class="benefit-description">
+                        Perfect for sautéing, grilling, and dressings. Elevates every dish with its rich flavor.
+                    </p>
+                </div>
+                
+                <div class="benefit-card animate-on-scroll">
+                    <div class="benefit-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="benefit-title">Brain Function</h3>
+                    <p class="benefit-description">
+                        Supports cognitive function and may help protect against age-related mental decline.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="text-center" style="margin-top: 2rem;">
+                <a href="benefits.html" class="btn btn-secondary">
+                    Explore All Benefits
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">
+                    <i class="fas fa-quote-left"></i>
+                    Testimonials
+                </span>
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-subtitle">
+                    Don't just take our word for it. Here's what our valued customers have to say about our olive oil.
+                </p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">"</div>
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        The best olive oil I've ever tasted! The flavor is so authentic and fresh. 
+                        I use it for cooking and salads every day. Highly recommend to everyone who values quality.
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">SA</div>
+                        <div class="testimonial-info">
+                            <h4>Sarah Ahmed</h4>
+                            <span>Verified Buyer</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card" style="display: none;">
+                    <div class="testimonial-quote">"</div>
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        Finally found a genuine organic olive oil! The quality is exceptional and the taste is amazing. 
+                        My family loves it. Will definitely order again and recommend to friends.
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">MK</div>
+                        <div class="testimonial-info">
+                            <h4>Muhammad Khan</h4>
+                            <span>Regular Customer</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card" style="display: none;">
+                    <div class="testimonial-quote">"</div>
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        I've been using this olive oil for skincare and cooking for months now. 
+                        My skin has never felt better and my dishes taste restaurant-quality. Worth every penny!
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">FA</div>
+                        <div class="testimonial-info">
+                            <h4>Fatima Ali</h4>
+                            <span>Health Enthusiast</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-dots">
+                    <span class="testimonial-dot active"></span>
+                    <span class="testimonial-dot"></span>
+                    <span class="testimonial-dot"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="section cta">
+        <div class="container">
+            <div class="cta-content animate-on-scroll">
+                <h2>Ready to Experience Pure Olive Oil?</h2>
+                <p>
+                    Order now and bring the authentic taste of Mediterranean olive oil to your kitchen. 
+                    Free delivery on orders above Rs. 3,000.
+                </p>
+                <div class="cta-buttons">
+                    <a href="products.html" class="btn btn-primary">
+                        <i class="fas fa-shopping-bag"></i>
+                        Shop Now
+                    </a>
+                    <a href="#" class="btn btn-whatsapp" onclick="contactOnWhatsApp(); return false;">
+                        <i class="fab fa-whatsapp"></i>
+                        Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-text">Zaitoon<span>.</span></span>
+                    </a>
+                    <p>
+                        Premium quality organic olive oil, cold-pressed to perfection. 
+                        Experience the pure taste of nature with every drop.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="benefits.html">Benefits</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Products</h4>
+                    <ul class="footer-links">
+                        <li><a href="products.html">Extra Virgin Olive Oil</a></li>
+                        <li><a href="products.html">Cold Pressed Olive Oil</a></li>
+                        <li><a href="products.html">Organic Olive Oil</a></li>
+                        <li><a href="products.html">Gift Sets</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone"></i> +92 300 1234567</li>
+                        <li><i class="fas fa-envelope"></i> info@zaitoon.pk</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Lahore, Pakistan</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Zaitoon Pure Olive Oil. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- WhatsApp Float Button -->
+    <a href="#" class="whatsapp-float" onclick="contactOnWhatsApp(); return false;" aria-label="Contact on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
